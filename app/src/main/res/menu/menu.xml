@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Arquivo"
+        android:icon="@drawable/arquivo"
+        android:id="@+id/mArquivo"
+        app:showAsAction="ifRoom"/>
+
+    <item android:title="Alterar"
+        android:icon="@drawable/alterar"
+        android:id="@+id/mAlterar"
+        app:showAsAction="ifRoom"/>
+
+    <item android:title="Excluir"
+        android:icon="@drawable/excluir"
+        android:id="@+id/mExcluir"
+        app:showAsAction="ifRoom"/>
+
+    <item android:title="Pesquisar"
+        android:icon="@drawable/pesquisar"
+        android:id="@+id/mPesquisar"
+        app:showAsAction="ifRoom"/>
+
+    <item android:title="Sair"
+        android:icon="@drawable/sair"
+        android:id="@+id/mSair"
+        app:showAsAction="ifRoom"/>
+
+</menu>
